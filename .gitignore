@@ -1,0 +1,59 @@
+## .env
+.env
+
+## c program
+c/*
+c/*.o
+!c/**/*.c
+!c/**/*.h
+!c/**/*.a
+!c/**/Makefile*
+
+## Java
+**/*.class
+
+## Scala
+scala/**/project
+scala/**/target
+
+## Maven
+maven/**/target
+
+## nodejs
+nodejs/**/node_modules
+nodejs/**/package-lock.json
+nodejs/**/.serverless
+
+## python
+.idea
+secret.json
+**/.venv
+**/__pycache__/
+**/secret.json
+**/*.mp4
+**/*.mp3
+
+**/model.safetensors
+**/llama.cpp
+**/*.gguf
+**/sft.json
+**/finetuned-*
+
+## mongodb
+mongodb/backup
+
+## oracle
+oracle/node/dbConfig.jspy
+oracle/**/node_modules
+oracle/**/package-lock.json
+
+## docker
+docker/mysql/mysql*
+docker/mongodb/mongo*
+
+
+react/**/.git
+nestjs/**/.git
+
+
+ai-1/1_openai/4_fine_tuning/archive

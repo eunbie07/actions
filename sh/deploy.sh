@@ -22,5 +22,3 @@ source ~/.bashrc
 npm install
 
 pm2 restart all
-
-##KEY
